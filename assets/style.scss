@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.area{
+    width: 510px;
+    height: 97vh;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    .circle{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 162, 0);
+        border:1px solid  rgb(255, 162, 0);
+        border-radius: 50%;
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    .newDots{
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 162, 0);
+        border:1px solid  rgb(255, 162, 0);
+        border-radius: 50%;
+        position: absolute;
+
+    }
+}
+
